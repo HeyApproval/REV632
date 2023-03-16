@@ -485,59 +485,59 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [76];
+	this.actionFrames = [285];
 	// timeline functions:
-	this.frame_76 = function() {
+	this.frame_285 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(76).call(this.frame_76).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(285).call(this.frame_285).wait(1));
 
 	// STREET_AND_LEGAL
 	this.instance = new lib.STREETANDLEGAL();
 	this.instance.setTransform(150,101.95);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(286));
 
 	// HEAD1
 	this.instance_1 = new lib.HEAD1();
 	this.instance_1.setTransform(156.5,99.05);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(286));
 
 	// CTA
 	this.instance_2 = new lib.CTA();
 	this.instance_2.setTransform(239.9,229.3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(286));
 
 	// LOGO
 	this.instance_3 = new lib.RevivierLogorevsvg("synched",0);
 	this.instance_3.setTransform(85.05,229.05,0.5,0.5,0,0,0,142.1,26.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(286));
 
 	// stars_copy_copy
 	this.instance_4 = new lib.STARfade();
 	this.instance_4.setTransform(233.05,134.7);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(32).to({_off:false},0).to({_off:true},10).wait(24).to({_off:false},0).to({_off:true},10).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(32).to({_off:false},0).to({_off:true},10).wait(24).to({_off:false},0).to({_off:true},10).wait(59).to({_off:false},0).to({_off:true},10).wait(59).to({_off:false},0).to({_off:true},10).wait(59).to({_off:false},0).to({_off:true},10).wait(3));
 
 	// stars_copy
 	this.instance_5 = new lib.STARfade();
 	this.instance_5.setTransform(70.05,76.15);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(27).to({_off:false},0).to({_off:true},10).wait(24).to({_off:false},0).to({_off:true},10).wait(6));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(27).to({_off:false},0).to({_off:true},10).wait(24).to({_off:false},0).to({_off:true},10).wait(59).to({_off:false},0).to({_off:true},10).wait(59).to({_off:false},0).to({_off:true},10).wait(59).to({_off:false},0).to({_off:true},10).wait(8));
 
 	// stars
 	this.instance_6 = new lib.STARfade();
 	this.instance_6.setTransform(233.05,61);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(25).to({_off:false},0).to({_off:true},10).wait(24).to({_off:false},0).to({_off:true},10).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(25).to({_off:false},0).to({_off:true},10).wait(24).to({_off:false},0).to({_off:true},10).wait(59).to({_off:false},0).to({_off:true},10).wait(59).to({_off:false},0).to({_off:true},10).wait(59).to({_off:false},0).to({_off:true},10).wait(10));
 
 	// MASK (mask)
 	var mask = new cjs.Shape();
@@ -548,7 +548,7 @@ if (reversed == null) { reversed = false; }
 	// plate_hl
 	this.instance_7 = new lib.plate_hl();
 	this.instance_7.setTransform(149.75,172.25);
-	this.instance_7.alpha = 0;
+	this.instance_7.alpha = 0.5;
 	this.instance_7.compositeOperation = "screen";
 	this.instance_7._off = true;
 
@@ -558,19 +558,19 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(10).to({_off:false},0).wait(1).to({y:149.5848,alpha:0.0833},0).wait(1).to({y:131.9013,alpha:0.1667},0).wait(1).to({y:120.2994,alpha:0.25},0).wait(1).to({y:113.4979,alpha:0.3333},0).wait(1).to({y:109.6656,alpha:0.4167},0).wait(1).to({y:107.5292,alpha:0.5},0).wait(1).to({y:106.3554,alpha:0.5833},0).wait(1).to({y:105.7332,alpha:0.6667},0).wait(1).to({y:105.4267,alpha:0.75},0).wait(1).to({y:105.296,alpha:0.8333},0).wait(1).to({y:105.2551,alpha:0.9167},0).wait(1).to({y:105.25,alpha:1},0).wait(55));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(10).to({_off:false},0).wait(1).to({y:161.8031,alpha:0.5417},0).wait(1).to({y:151.4636,alpha:0.5833},0).wait(1).to({y:141.8738,alpha:0.625},0).wait(1).to({y:133.4585,alpha:0.6667},0).wait(1).to({y:126.3706,alpha:0.7083},0).wait(1).to({y:120.5713,alpha:0.75},0).wait(1).to({y:115.9324,alpha:0.7917},0).wait(1).to({y:112.3016,alpha:0.8333},0).wait(1).to({y:109.5343,alpha:0.875},0).wait(1).to({y:107.5043,alpha:0.9167},0).wait(1).to({y:106.1055,alpha:0.9583},0).wait(1).to({y:105.25,alpha:1},0).wait(264));
 
 	// plate
 	this.instance_8 = new lib.plateazblack();
 	this.instance_8.setTransform(50,45,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(286));
 
 	// BKGD
 	this.instance_9 = new lib._300x250AZDETOUR();
 	this.instance_9.setTransform(0,0,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(286));
 
 	// stageBackground
 	this.shape = new cjs.Shape();
@@ -581,7 +581,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#CCCCCC").s().p("A4/VGMAAAgqLMAx/AAAMAAAAqLg");
 	this.shape_1.setTransform(150,125);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(77));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(286));
 
 	this._renderFirstFrame();
 
@@ -596,8 +596,8 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/300x250 AZ DETOUR_atlas_P_1.png?1678997053952", id:"300x250 AZ DETOUR_atlas_P_1"},
-		{src:"images/300x250 AZ DETOUR_atlas_NP_1.jpg?1678997053952", id:"300x250 AZ DETOUR_atlas_NP_1"}
+		{src:"images/300x250 AZ DETOUR_atlas_P_1.png?1678999003207", id:"300x250 AZ DETOUR_atlas_P_1"},
+		{src:"images/300x250 AZ DETOUR_atlas_NP_1.jpg?1678999003207", id:"300x250 AZ DETOUR_atlas_NP_1"}
 	],
 	preloads: []
 };
