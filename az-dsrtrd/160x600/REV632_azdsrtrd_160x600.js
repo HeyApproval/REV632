@@ -28,7 +28,7 @@ lib.ssMetadata = [
 
 
 
-(lib._300x600AZDETOUR = function() {
+(lib._300x600AZDSRTRD = function() {
 	this.initialize(ss["REV632_azdsrtrd_160x600_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -476,15 +476,15 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(118));
 
 	// BKGD
-	this.instance_6 = new lib._300x600AZDETOUR();
-	this.instance_6.setTransform(-10,0,0.5,0.5);
+	this.instance_6 = new lib._300x600AZDSRTRD();
+	this.instance_6.setTransform(-70,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(118));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(24.6,300,265.4,300);
+p.nominalBounds = new cjs.Rectangle(10,300,220,300);
 // library properties:
 lib.properties = {
 	id: '0E11E9F5D49240C6BBEEAC80F63F5DAC',
@@ -494,8 +494,8 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/REV632_azdsrtrd_160x600_atlas_P_1.png", id:"REV632_azdsrtrd_160x600_atlas_P_1"},
-		{src:"images/REV632_azdsrtrd_160x600_atlas_NP_1.jpg", id:"REV632_azdsrtrd_160x600_atlas_NP_1"}
+		{src:"images/REV632_azdsrtrd_160x600_atlas_P_1.png?1679356018887", id:"REV632_azdsrtrd_160x600_atlas_P_1"},
+		{src:"images/REV632_azdsrtrd_160x600_atlas_NP_1.jpg?1679356018887", id:"REV632_azdsrtrd_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };

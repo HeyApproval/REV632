@@ -494,8 +494,8 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/REV632_azdetour_728x90_atlas_P_1.png?1679346742106", id:"REV632_azdetour_728x90_atlas_P_1"},
-		{src:"images/REV632_azdetour_728x90_atlas_NP_1.jpg?1679346742106", id:"REV632_azdetour_728x90_atlas_NP_1"}
+		{src:"images/REV632_azdetour_728x90_atlas_P_1.png?1679355793722", id:"REV632_azdetour_728x90_atlas_P_1"},
+		{src:"images/REV632_azdetour_728x90_atlas_NP_1.jpg?1679355793722", id:"REV632_azdetour_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };

@@ -28,7 +28,7 @@ lib.ssMetadata = [
 
 
 
-(lib._728x90AZDETOUR = function() {
+(lib._728x90AZDSRTRD = function() {
 	this.initialize(ss["REV632_azdsrtrd_320x50_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -476,7 +476,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(118));
 
 	// BKGD
-	this.instance_6 = new lib._728x90AZDETOUR();
+	this.instance_6 = new lib._728x90AZDSRTRD();
 	this.instance_6.setTransform(-80,0,0.2778,0.2778);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(118));
