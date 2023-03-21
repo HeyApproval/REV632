@@ -467,7 +467,7 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(10).to({_off:false},0).to({x:148},28,cjs.Ease.quartOut).to({x:140},11,cjs.Ease.quadInOut).wait(30).to({x:-23},20,cjs.Ease.quadIn).wait(19));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(10).to({_off:false},0).to({x:148},28,cjs.Ease.quartOut).to({x:140},11,cjs.Ease.quadInOut).wait(30).to({alpha:0},20).wait(19));
 
 	// plate
 	this.instance_5 = new lib.plateazblack();
@@ -494,8 +494,8 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/REV632_azdetour_300x250_atlas_P_1.png?1679344979650", id:"REV632_azdetour_300x250_atlas_P_1"},
-		{src:"images/REV632_azdetour_300x250_atlas_NP_1.jpg?1679344979650", id:"REV632_azdetour_300x250_atlas_NP_1"}
+		{src:"images/REV632_azdetour_300x250_atlas_P_1.png?1679435459555", id:"REV632_azdetour_300x250_atlas_P_1"},
+		{src:"images/REV632_azdetour_300x250_atlas_NP_1.jpg?1679435459555", id:"REV632_azdetour_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
