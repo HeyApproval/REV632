@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"REV632_caocndr_300x250_atlas_P_1", frames: [[0,302,377,225],[0,0,1000,300]]},
-		{name:"REV632_caocndr_300x250_atlas_NP_1", frames: [[0,0,601,501]]}
+		{name:"REV632_caocndr_300x250_atlas_NP_1", frames: [[0,0,600,500]]}
 ];
 
 
@@ -477,14 +477,14 @@ if (reversed == null) { reversed = false; }
 
 	// BKGD
 	this.instance_6 = new lib._300x250CAOCNDR();
-	this.instance_6.setTransform(0,0,0.5,0.5);
+	this.instance_6.setTransform(0,0,0.4992,0.499);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(118));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(150,123.9,150.5,126.6);
+p.nominalBounds = new cjs.Rectangle(150,123.9,150,126.1);
 // library properties:
 lib.properties = {
 	id: '0E11E9F5D49240C6BBEEAC80F63F5DAC',
