@@ -438,9 +438,9 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_1 = new lib.CTA();
-	this.instance_1.setTransform(629.3,65.35,1.4998,1.4998,0,0,0,0.1,0.1);
+	this.instance_1.setTransform(629.2,65.25,1.1998,1.1998,0,0,0,0.1,0.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(55).to({regX:0.3,scaleX:1.7997,scaleY:1.7997,x:629.45},3,cjs.Ease.quadInOut).to({regX:0.1,scaleX:1.4998,scaleY:1.4998,x:629.3},6,cjs.Ease.quadInOut).wait(54));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(55).to({regX:0.3,scaleX:1.4397,scaleY:1.4397,x:629.35},3,cjs.Ease.quadInOut).to({regX:0.1,scaleX:1.1998,scaleY:1.1998,x:629.2},6,cjs.Ease.quadInOut).wait(54));
 
 	// LOGO
 	this.instance_2 = new lib.RevivierLogorevsvg("synched",0);
@@ -498,8 +498,8 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/REV632_azdsrtrd_728x90_atlas_P_1.png", id:"REV632_azdsrtrd_728x90_atlas_P_1"},
-		{src:"images/REV632_azdsrtrd_728x90_atlas_NP_1.jpg", id:"REV632_azdsrtrd_728x90_atlas_NP_1"}
+		{src:"images/REV632_azdsrtrd_728x90_atlas_P_1.png?1679500764115", id:"REV632_azdsrtrd_728x90_atlas_P_1"},
+		{src:"images/REV632_azdsrtrd_728x90_atlas_NP_1.jpg?1679500764115", id:"REV632_azdsrtrd_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };
