@@ -440,15 +440,22 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_2 = new lib.CTA();
-	this.instance_2.setTransform(267.15,36.3,0.8332,0.8332,0,0,0,0.1,0.1);
+	this.instance_2.setTransform(267.05,36.25,0.6665,0.6665,0,0,0,0.1,0.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(55).to({regX:0.3,scaleX:0.9998,scaleY:0.9998,x:267.2,y:36.25},3,cjs.Ease.quadInOut).to({regX:0.1,scaleX:0.8332,scaleY:0.8332,x:267.15,y:36.3},6,cjs.Ease.quadInOut).wait(54));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(55).to({regX:0.3,regY:0.2,scaleX:0.7998,scaleY:0.7998,x:267.15,y:36.3},3,cjs.Ease.quadInOut).to({regX:0.1,regY:0.1,scaleX:0.6665,scaleY:0.6665,x:267.05,y:36.25},6,cjs.Ease.quadInOut).wait(54));
 
 	// LOGO
 	this.instance_3 = new lib.RevivierLogorevsvg("synched",0);
 	this.instance_3.setTransform(268.7,13.35,0.3055,0.3055,0,0,0,142.4,26.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(118));
+
+	// CTA_bkgd_box
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#000000").s().p("AoZEFIAAoJIQzAAIAAIJg");
+	this.shape.setTransform(266.725,24.625);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(118));
 
 	// MASK (mask)
 	var mask = new cjs.Shape();
@@ -477,14 +484,14 @@ if (reversed == null) { reversed = false; }
 
 	// BKGD
 	this.instance_6 = new lib._728x90AZDETOUR();
-	this.instance_6.setTransform(-80,0,0.2778,0.2778);
+	this.instance_6.setTransform(-40,0,0.2778,0.2778);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(118));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(80,25,244.5,25);
+p.nominalBounds = new cjs.Rectangle(120,23.5,244.5,27.299999999999997);
 // library properties:
 lib.properties = {
 	id: '0E11E9F5D49240C6BBEEAC80F63F5DAC',
@@ -494,8 +501,8 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/REV632_azdetour_320x50_atlas_P_1.png?1679355803270", id:"REV632_azdetour_320x50_atlas_P_1"},
-		{src:"images/REV632_azdetour_320x50_atlas_NP_1.jpg?1679355803270", id:"REV632_azdetour_320x50_atlas_NP_1"}
+		{src:"images/REV632_azdetour_320x50_atlas_P_1.png?1679502558694", id:"REV632_azdetour_320x50_atlas_P_1"},
+		{src:"images/REV632_azdetour_320x50_atlas_NP_1.jpg?1679502558694", id:"REV632_azdetour_320x50_atlas_NP_1"}
 	],
 	preloads: []
 };
