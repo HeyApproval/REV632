@@ -652,11 +652,23 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(384));
 
-	// LIGHT
-	this.instance_5 = new lib.RetargGlowUp160x600light();
-	this.instance_5.setTransform(0,0,0.5,0.5);
+	// HEADa_copy
+	this.instance_5 = new lib.HEADa();
+	this.instance_5.setTransform(199.45,227.55,1.31,1.31);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(384));
+
+	// HEADb_copy
+	this.instance_6 = new lib.HEADb();
+	this.instance_6.setTransform(196,268.55,1.31,1.31);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(23).to({x:51.8},15,cjs.Ease.quadInOut).wait(346));
+
+	// LIGHT
+	this.instance_7 = new lib.RetargGlowUp160x600light();
+	this.instance_7.setTransform(0,0,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(384));
 
 	// stageBackground
 	this.shape_1 = new cjs.Shape();
@@ -682,7 +694,7 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/REV632_glowup_160x600_atlas_NP_1.jpg?1680214507454", id:"REV632_glowup_160x600_atlas_NP_1"}
+		{src:"images/REV632_glowup_160x600_atlas_NP_1.jpg?1680215149798", id:"REV632_glowup_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };

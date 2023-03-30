@@ -684,11 +684,23 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(384));
 
-	// LIGHT
-	this.instance_5 = new lib.RetargGlowUp728x90light();
-	this.instance_5.setTransform(0,0,0.5,0.5);
+	// HEADa_copy
+	this.instance_5 = new lib.HEADa();
+	this.instance_5.setTransform(387.85,160.95,1.433,1.433);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(384));
+
+	// HEADb_copy
+	this.instance_6 = new lib.HEADb();
+	this.instance_6.setTransform(390.05,160.95,1.433,1.433);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(384));
+
+	// LIGHT
+	this.instance_7 = new lib.RetargGlowUp728x90light();
+	this.instance_7.setTransform(0,0,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(384));
 
 	// stageBackground
 	this.shape_1 = new cjs.Shape();
@@ -714,7 +726,7 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/REV632_glowup_728x90_atlas_NP_1.jpg?1680214517990", id:"REV632_glowup_728x90_atlas_NP_1"}
+		{src:"images/REV632_glowup_728x90_atlas_NP_1.jpg?1680214995860", id:"REV632_glowup_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };
